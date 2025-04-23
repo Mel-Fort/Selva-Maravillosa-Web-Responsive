@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Maravilla de la Selva</title>
+  <link rel="stylesheet" href="estilos.css"> 
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Las Maravillas de la Selva</h1>
+  </header>
+
+  <button id="menu-toggle">☰ Menú</button>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="#flora">Flora</a></li>
+      <li><a href="#fauna">Fauna</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#audios">Audios</a></li>
+      <li><a href="https://www.nationalgeographic.com/" target="_blank">Más información</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <button id="toggle-dark" class="change-bg">Modo Oscuro</button>
+    <section class="intro-fauna">
+      <div class="intro-contenido">
+        <div class="intro-texto">
+          <h2>La Selva Amazónica</h2>
+          <p>
+            La selva amazónica es el ecosistema con mayor biodiversidad del planeta. Alberga miles de especies de animales, plantas y microorganismos que conviven en un delicado equilibrio natural.
+          </p>
+
+          <p>
+            Explorar la flora y fauna amazónica es adentrarse en un mundo misterioso, vibrante y vital para el equilibrio ecológico del planeta.
+          </p>
+        </div>
+        <div class="intro-imagen">
+          <img src="rainforest.jpg" alt="Selva Amazónica">
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="fauna">
+      <h2>Fauna de la Selva</h2>
+      <p>Entre su fauna destacan felinos como el jaguar, aves exóticas como el guacamayo azul, y cientos de especies aún no descubiertas. 
+      </p>
+      <div class="contenedor">
+        <div class="categoria">
+          <h3>Felinos</h3>
+          <ul>
+            <li><img src="Jaguar.jpg" alt="Jaguar" /></li>
+            <span>Jaguar</span>
+            <li><img src="Puma.png" alt="Puma" /></li>
+            <span>Puma</span>
+          </ul>
+          <a href="https://delamazonas.com/animales/mamiferos/felinos/#" target="_blank" rel="noopener noreferrer">
+            <p><i>Aprende más sobre los felinos de la Selva</i></p>
+          </a>
+        </div>
+
+        <div class="categoria">
+          <h3>Aves</h3>
+          <ul>
+            <li><img src="Guacamayo.png" alt="Guacamayo Azul" /></li>
+            <span>Guacamayo Azul</span>
+            <li><img src="Zopilote.png" alt="Zopilote Rey" /></li>
+            <span>Zopilote Rey</span>
+          </ul>
+          <a href="https://www.expertoanimal.com/10-aves-exoticas-del-amazonas-23465.html" target="_blank" rel="noopener noreferrer">
+            <p><i>Aprende más sobre las aves de la Selva</i></p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+      
+    <section id="flora">
+      <h2>Flora de la Selva</h2>
+      <p>La flora no se queda atrás: árboles gigantes, plantas medicinales, orquídeas y lianas forman un entramado verde que lo cubre todo.</p>
+      <div class="fila-imagenes">
+        <img src="tropicalplant.jpg" alt="Planta tropical" />
+        <img src="jungle.jpg" alt="Árbol de la selva" />
+      </div>
+    </section>
+
+    <section id="videos">
+      <h2>Videos de la Selva</h2>
+      <video controls>
+        <source src="tropical-rainforest.mov" type="video/mp4" />
+        Tu navegador no soporta videos.
+      </video>
+    </section>
+
+    <section id="audios">
+      <h2>Sonidos de la Selva</h2>
+      <audio controls>
+        <source src="junglesound.mp3" type="audio/mp3" />
+        Tu navegador no soporta audios.
+      </audio>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 La Selva y sus Maravillas</p>
+  </footer>
+</body>
+</html>
